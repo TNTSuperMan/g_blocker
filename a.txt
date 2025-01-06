@@ -1,0 +1,2 @@
+
+^https?:\\/\\/(\\w+.)*(google|google-analytics|googletagmanager|chrome).(com|co\\.jp|net|org)\\/?
