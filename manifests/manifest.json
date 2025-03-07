@@ -4,21 +4,13 @@
     "version": "2.9.1",
     "description": "Block google's watching and networking",
     "permissions": [
-        "declarativeNetRequest",
-        "declarativeNetRequestWithHostAccess",
-        "declarativeNetRequestFeedback"
+        "webRequest",
+        "webRequestBlocking"
     ],
     "host_permissions": [
         "<all_urls>"
     ],
     "background": {
         "service_worker": "main.js"
-    },
-    "declarative_net_request": {
-        "rule_resources": [{
-            "enabled": true,
-            "id": "block",
-            "path": "block.json"
-        }]
     }
 }
