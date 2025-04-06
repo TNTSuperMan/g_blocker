@@ -4,6 +4,7 @@
     "version": "2.9.1",
     "description": "Block google's watching and networking",
     "permissions": [
+        "declarativeNetRequest",
         "webRequest"
     ],
     "host_permissions": [
